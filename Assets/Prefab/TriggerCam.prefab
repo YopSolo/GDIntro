@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 967517635170349045}
   - component: {fileID: 3347327813890766893}
   m_Layer: 0
-  m_Name: Trigger
+  m_Name: TriggerCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
