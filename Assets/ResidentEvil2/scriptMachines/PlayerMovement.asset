@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PlayerMovement
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":65.0,"y":36.0},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"SimpleMove","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.CharacterController","targetTypeName":"UnityEngine.CharacterController","$version":"A"},"defaultValues":{"target":null,"%speed":{"x":0.0,"y":0.0,"z":5.0,"$type":"UnityEngine.Vector3"}},"position":{"x":271.0,"y":78.0},"guid":"a4afb9bf-5a6b-4b23-97c9-72b7cd8abe80","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"9"},{"coroutine":false,"defaultValues":{"key":{"$content":"Z","$type":"UnityEngine.KeyCode"},"action":{"$content":"Hold","$type":"Unity.VisualScripting.PressState"}},"position":{"x":-86.0,"y":74.0},"guid":"b2513921-d786-4aaa-b6f0-abf295395b05","$version":"A","$type":"Unity.VisualScripting.OnKeyboardInput","$id":"12"},{"chainable":false,"member":{"name":"SimpleMove","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.CharacterController","targetTypeName":"UnityEngine.CharacterController","$version":"A"},"defaultValues":{"target":null,"%speed":{"x":0.0,"y":0.0,"z":-5.0,"$type":"UnityEngine.Vector3"}},"position":{"x":279.0,"y":272.0},"guid":"777d17f6-774b-4d59-9e60-a9671da5052f","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"14"},{"coroutine":false,"defaultValues":{"key":{"$content":"S","$type":"UnityEngine.KeyCode"},"action":{"$content":"Hold","$type":"Unity.VisualScripting.PressState"}},"position":{"x":-79.0,"y":268.0},"guid":"2050c6e5-8cfd-47e6-8388-f4a4d2a49f33","$version":"A","$type":"Unity.VisualScripting.OnKeyboardInput","$id":"17"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"34c3549a-2d47-4e67-abfe-3869d26aa2f8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"e5c39c6e-744c-4c6c-a124-4bc359d5b23b","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
