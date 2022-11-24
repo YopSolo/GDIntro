@@ -4335,6 +4335,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1081359889446305432, guid: 8ada202ef41a8c040872ce94dfbd2203, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"playerMoveSpeed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerRotationSpeed","value":{"$content":180.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 8393084932746780771, guid: 8ada202ef41a8c040872ce94dfbd2203, type: 3}
       propertyPath: m_Name
       value: TpsPlayer
@@ -4353,7 +4359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8393084932746780775, guid: 8ada202ef41a8c040872ce94dfbd2203, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.11
+      value: 14.69
       objectReference: {fileID: 0}
     - target: {fileID: 8393084932746780775, guid: 8ada202ef41a8c040872ce94dfbd2203, type: 3}
       propertyPath: m_LocalRotation.w
