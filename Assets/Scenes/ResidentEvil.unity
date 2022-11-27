@@ -551,6 +551,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 285757900}
     m_Modifications:
+    - target: {fileID: 4244892845660329839, guid: a439379fbfc396143a74c8e9b9690e27, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: e04d5fc5b487de54d8d80135883da1f5, type: 2}
     - target: {fileID: 6122265311800836013, guid: a439379fbfc396143a74c8e9b9690e27, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"targetDoor","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -584,7 +588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8942070715571798049, guid: a439379fbfc396143a74c8e9b9690e27, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.48
+      value: 32.92
       objectReference: {fileID: 0}
     - target: {fileID: 8942070715571798049, guid: a439379fbfc396143a74c8e9b9690e27, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1489,7 +1493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8600648710743154238, guid: 5dea1014352547b489163e42d91a1ad3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.37
+      value: 32.24
       objectReference: {fileID: 0}
     - target: {fileID: 8600648710743154238, guid: 5dea1014352547b489163e42d91a1ad3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4335,12 +4339,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1081359889446305432, guid: 8ada202ef41a8c040872ce94dfbd2203, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"playerMoveSpeed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerRotationSpeed","value":{"$content":180.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 8393084932746780771, guid: 8ada202ef41a8c040872ce94dfbd2203, type: 3}
       propertyPath: m_Name
       value: TpsPlayer
