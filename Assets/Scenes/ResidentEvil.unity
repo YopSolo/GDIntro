@@ -1056,7 +1056,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"score","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &214885543
 Transform:
@@ -1843,7 +1844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8300685461989274611, guid: 9ea157235dd25b5469f21c988e6a8080, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.353375
+      value: 7.7
       objectReference: {fileID: 0}
     - target: {fileID: 8300685461989274611, guid: 9ea157235dd25b5469f21c988e6a8080, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1851,7 +1852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8300685461989274611, guid: 9ea157235dd25b5469f21c988e6a8080, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 29.824131
+      value: 29.89
       objectReference: {fileID: 0}
     - target: {fileID: 8300685461989274611, guid: 9ea157235dd25b5469f21c988e6a8080, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1948,7 +1949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8300685461989274611, guid: 9ea157235dd25b5469f21c988e6a8080, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.8765826
+      value: 4.34
       objectReference: {fileID: 0}
     - target: {fileID: 8300685461989274611, guid: 9ea157235dd25b5469f21c988e6a8080, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4039,7 +4040,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-100.9152,"y":-29.1093},"zoom":0.8500001,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"","$type":"System.String"}},"position":{"x":-380.0,"y":-115.0},"guid":"e5593493-c546-45fa-92cb-54d98e2715e6","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"10"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"message::pickup","$type":"System.String"}},"position":{"x":-614.0,"y":34.0},"guid":"04f5e5d3-b4e6-4fb9-b798-6791fed95308","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"12"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"sdqdq","$type":"System.String"}},"position":{"x":742.0,"y":-198.0},"guid":"5f05e428-4d46-459f-b9f4-9e1c90b6795c","$version":"A","$type":"Unity.VisualScripting.SetMember"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"TMPro.TextMeshProUGUI","targetTypeName":"TMPro.TextMeshProUGUI","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"saucisse","$type":"System.String"}},"position":{"x":-3.0,"y":-176.0},"guid":"668d6f53-3657-4858-8cdf-a05a5fafa5aa","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"17"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"ed4c72f4-d35d-435c-886d-f1b1bb039bc9","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"10"},"destinationKey":"name","guid":"79dd7e20-2bbb-4dcc-b21b-53c856927ce7","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":127.3199,"y":-183.2269},"zoom":0.8500001,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"","$type":"System.String"}},"position":{"x":-422.0,"y":-113.0},"guid":"e5593493-c546-45fa-92cb-54d98e2715e6","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"10"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"message::pickup","$type":"System.String"}},"position":{"x":-667.0,"y":56.0},"guid":"04f5e5d3-b4e6-4fb9-b798-6791fed95308","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"12"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"TMPro.TextMeshProUGUI","targetTypeName":"TMPro.TextMeshProUGUI","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"*","$type":"System.String"}},"position":{"x":252.0,"y":-115.0},"guid":"668d6f53-3657-4858-8cdf-a05a5fafa5aa","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"14"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"score","$type":"System.String"}},"position":{"x":-158.0,"y":33.0},"guid":"3ba44ba1-e27d-4af6-970c-abd937e669e5","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"17"},{"chainable":false,"member":{"name":"ToString","parameterTypes":[],"targetType":"System.Int32","targetTypeName":"System.Int32","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"System.Int32"}},"position":{"x":28.0,"y":17.0},"guid":"566f4825-c384-407e-9f2f-f0e0fa0b7240","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"19"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"ed4c72f4-d35d-435c-886d-f1b1bb039bc9","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"10"},"destinationKey":"name","guid":"79dd7e20-2bbb-4dcc-b21b-53c856927ce7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"target","guid":"823f21fe-a183-4121-9ef0-39291f4c7545","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"result","destinationUnit":{"$ref":"14"},"destinationKey":"input","guid":"868c3071-2f33-4886-905f-652ed87bddf9","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-227.3529,"yMin":-213.1177,"xMax":458.5294,"yMax":251.8823},"label":"mets
+      a jour le score en allant chercher la valeur du score dans la variable scene","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"afe93102-ae91-4bfb-b650-b2b166e0fb71","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":-694.4117,"yMin":-215.4706,"xMax":-235.5883,"yMax":253.0587},"label":"Ecoute
+      le message message::pickup","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"e7b81b70-3853-44bc-811d-b817bb2afe7d","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &1576652745
 MonoBehaviour:
@@ -4073,7 +4076,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8300685461989274611, guid: 9ea157235dd25b5469f21c988e6a8080, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.8044057
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 8300685461989274611, guid: 9ea157235dd25b5469f21c988e6a8080, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5551,7 +5554,6 @@ PrefabInstance:
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"playerMoveSpeed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerRotationSpeed","value":{"$content":180.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"score","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 8393084932746780771, guid: 8ada202ef41a8c040872ce94dfbd2203, type: 3}
